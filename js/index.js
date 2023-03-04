@@ -69,7 +69,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
                 getRandomMsg(dialog.details).forEach(function (content) {
                     _this2.msgChain = _this2.msgChain.then(function () {
-                        return delay(700);
+                        return delay(900);
                     }).then(function () {
                         return _this2.sendMsg(content, AUTHOR.AUTHOR);
                     });
